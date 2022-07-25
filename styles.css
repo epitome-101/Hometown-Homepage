@@ -1,0 +1,79 @@
+/**
+Palette: https://scrimba.com/links/hometown-palette
+RED: #E63946
+LIGHT: #F1FAEE
+AQUA: #A8DADC
+LIGHT BLUE: #457B9D
+DARK BLUE: #1D3557
+
+*/
+
+body {
+    
+    text-align: center;
+    font-family: 'Fira Sans', sans-serif;
+    margin: 0;
+}
+
+img {
+    width: 100px;
+}
+#hero{
+    background-image: url(torshov.jpg);
+    background-size: cover;
+    background-position: center; /* Center the image */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.torshov{
+    background: #1D3557;
+    color: #F1FAEE;
+    margin-top: 50px;
+    border-radius: 10px;
+    padding-right: 10px;
+    padding-left: 10px;
+}
+.culture{
+    background: #457B9D;
+    color: #F1FAEE;
+    margin: 5px auto 50px auto;
+    font-weight: 100;
+    width: 400px;
+    height: 52px;
+    font-size: 18px;
+    border-radius: 10px;
+}
+#activity{
+    display: flex;
+    justify-content: center;
+    background: #F1FAEE;
+    margin-top: 50px;
+}
+#img1, #img2, #img3{
+    border-radius: 50%;
+    
+}
+.card {
+  width: 450px;
+  margin: 80px auto;
+  padding: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #a8dadc;
+  color: #2b2839;
+  border-bottom: 6px solid #1d3557;
+  border-radius: 10px;
+}
+
+#my-photo {
+  object-fit: cover;
+  width: 200px;
+  border-radius: 10px;
+  height: 300px;
+}
+.business-card-text {
+  width: 250px;
+  margin-left: 20px;
+}
